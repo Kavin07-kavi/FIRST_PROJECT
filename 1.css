@@ -1,0 +1,178 @@
+body{
+  background-color: white;
+}
+td{
+  border-style: yellow;
+}
+h1{
+  color: rgb(4, 3, 9);
+  
+}
+form{
+  border-style:solid;
+  border-color: red;
+  text-shadow: 2px 2px rgb(0, 255, 102);
+  font: color green;
+  background-color: rgb(255, 225, 0);
+  font-size: small;
+  text-align: start;
+  text-transform: uppercase;
+  word-spacing: 40px;
+  
+}
+.head{
+color: rgb(234, 255, 0);
+}
+a{
+  color: black;
+}
+
+.flex-container {
+  display:flex;
+  background-color: rgb(30, 255, 56);
+
+
+}
+
+.item 
+{
+  background-color: #efe6e6;
+  margin: 70px;
+  padding: 25px;
+  font-size: 30px;
+}
+
+.hi
+{
+  display: flex;
+}
+
+.kavi
+{
+  display: inline-grid;
+  background-color: white;
+  margin: 100px;
+  padding: 10px;
+  grid-template-columns: 50px 50px 50px 50px 50px;
+  grid-template-rows:50px 50px 50px 50px 50px;
+  grid-gap:1px;
+  
+
+}
+ 
+.k1
+{
+border: 10px solid blue;
+padding: 3px;
+background-color: blue;
+grid-row: span 2;
+
+
+}
+.k2
+{
+border: 10px solid red;
+padding: 3px;
+background-color: red;
+}
+.k3
+{
+border: 10px solid violet;
+padding: 3px;
+background-color:violet;
+grid-column: span 2;
+
+}
+.k4
+{
+border: 10px solid gold;
+padding: px;
+background-color:gold;
+}
+.k5
+{
+border: 10px solid yellow;
+padding: 3px;
+background-color: yellow;
+grid-row: span 2;
+}
+.k6
+{
+border: 10px solid darkred;
+padding: 3px;
+background-color: darkred;
+grid-row: span 2;
+
+}
+.k7
+{
+border: 10px solid hotpink;
+padding: 3px;
+background-color: hotpink;
+grid-column: span 2;
+
+}
+.k8
+{
+border: 10px solid lawngreen;
+padding: 3px;
+background-color:lawngreen;
+grid-row: span ;
+}
+.k9
+{
+border: 10px solid green;
+padding: 1px;
+background-color:green;
+grid-row: span 2;
+}
+
+.k10
+{
+border: 10px solid navy;
+padding: 1px;
+background-color: navy;
+grid-row  : span 2;
+}
+
+
+.k11
+{
+border: 10px solid aqua;
+padding: 1px;
+background-color: aqua;
+grid-column: span 2;
+}
+
+.k12
+{
+border: 10px solid darkgray;
+padding: 1px;
+background-color:darkgrey;
+grid-row: span 2;
+}
+
+.k13
+{
+border: 10px solid silver;
+padding: 3px;
+background-color: silver;
+grid-column: 2;
+
+}
+.k14
+{
+border: 10px solid mediumaquamarine;
+padding: 2px;
+background-color: mediumaquamarine;
+
+}
+.k15
+{
+border: 10px solid khaki;
+padding: 2px;
+background-color: khaki;
+
+}
+
+
