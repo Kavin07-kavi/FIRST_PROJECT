@@ -1,57 +1,97 @@
-/*console.log('kavin')
+//Progression 1 - create a Manager array and return it
 
-let a=10;
-let b=20;
-let c=a+b;
-let d=a-b;
-let e=a/b;
-let f=a*b;
-let g=a^b;
-let h=a%b;
-let i=1+a;
-let s='kavin';
-let t=10;
-let u=s+t;
-console.log(c,d,e,f,g,h,i,u);
-console.log(typeof(c))*/
+let managerName = "Alex Ferguson";
+let managerAge = 78;
+let currentTeam = "Manchester FC";
+let trophiesWon = 27;
 
-/*let a=100;
-let b=200;
-if(a>b)
-    {
-     console.log(a);
-    }
- else
-    {
-     console.log(b);
-    }*/
-
- 
-/*let a=10;
-
-if(a % 2 == 0) {
-    console.log("The number is even.");
+//Write your function here
+function createManager(managerName, managerAge, currentTeam, trophiesWon){
+  return [managerName, managerAge, currentTeam, trophiesWon]
 }
-else {
-    console.log("The number is odd.");
 
-}*/
+// Don't edit the following code
+try {
+  var manager = createManager(
+    managerName,
+    managerAge,
+    currentTeam,
+    trophiesWon
+  );
+} catch (e) {
+  // do nothing - expected error
+}
 
-/*let age = 10;
+//Progression 2 - create a formation object and return it
+var formation = [4, 4, 3];
 
-if (age >= 18  ) 
- {
-  console.log("youngester");
- } 
-else
- {
-  console.log("children");
- }*/
 
-  let i=0;
-  do{
-   console.log(i)
-   i++;
-  }
-  while(i<=10);
+//write your function here
+function createFormation([forwards, midfielders, defenders]){
+  return [forwards, midfielders, defenders]
+}
+
+// Dont edit the following code
+
+try {
+  var formationObject = createFormation(formation);
+} catch (e) {
+  //do nothing
+}
+
+//Progression 3 - Filter players that debuted in ___ year
+function filterByDebut(year){
+  return[year]
+
+}
+
+
+//Progression 4 - Filter players that play at the position _______
+function filterByPosition(position){
+return[position]
+}
+
+// //Progression 5 - Filter players that have won ______ award
+function filterByAwardxTimes(awardName){
+  return[awardName]
+}
+
+
+//Progression 6 - Filter players that won ______ award ____ times
+function filterByAwardxTimes(awardName, noOfTimes){
+  return[awardName, noOfTimes]
+}
+
+
+//Progression 7 - Filter players that won ______ award and belong to ______ country
+
+
+//Progression 8 - Filter players that won atleast ______ awards, belong to ______ team and are younger than ____
+
+
+//Challenge 1 - Sort players in descending order of their age
+
+//Challenge 2 - Sort players beloging to _____ team in descending order of awards won
+
+
+//Judgement 1 - Sort players that have won _______ award _____ times and belong to _______ country in alphabetical order of their names
+
+
+//Judgement  2 - Sort players that are older than _____ years in alphabetical order
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

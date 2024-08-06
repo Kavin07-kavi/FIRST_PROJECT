@@ -1,58 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="1.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="data.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>FootBall  Hackathon   </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 </head>
+
 <body>
-    <h1>DAY 2</h1>
-    <h1>REGISTER</h1>
-    <form>
-        <input type="text" placeholder="username" name="name"><br><br>
-        <input type="text" placeholder="password" name="password"><br><br>
-        <input type="submit" value="submit">
-        
-    </form>
-    <hr>
-    <h1>DAY 3</h1>
-    <div class="flex-container">
-        <div class="item">1</div>
-        <div class="item">2</div>
-        <div class="item">3</div>
-        <div class="item">4</div>
-        <div class="item">5</div>  
-      </div>
-      <hr>
- <div class="hi">
-    <img src="./images.jpg" alt="" width="300">  
-    <p>Dhoni led the Indian squad for the 2011 Cricket World Cup co-hosted by India.[75] India won its second ever ODI world cup after defeating Sri Lanka in the final with Dhoni being named man of the match for scoring an unbeaten 91 </p>
- </div>
-<hr>
- <h1>DAY 4</h1>
-<div class="kavi">
-    <div class="k1"></div>
-    <div class="k2"></div>
-    <div class="k3"></div>
-    <div class="k4"></div>
-    <div class="k5"></div>
-    <div class="k6"></div>
-    <div class="k7"></div>
-    <div class="k8"></div>
-    <div class="k9"></div>
-    <div class="k10"></div>
-    <div class="k11"></div>
-    <div class="k12"></div>
-    <div class="k13"></div>
-    <div class="k14"></div>
-    <div class="k15"></div>
-  
 
-</div>
-<hr>
-<script src="app.js"></script>
-<hr>
+    <nav class="nav-bar">
+        <img src="assets/dreamteam.svg" class="DREAMTEAM">
+    </nav>
+    <section class="manager-details">
+        <div class="Rectangle">
+            <p class="title">MANAGER'S PROFILE </p>
+            <div class="grid-container">
+                <div>
+                    <p class="subtitle">NAME</p>
+                    <p class="insidetext">MANAGER NAME</p>
+                </div>
+                <div>
+                    <p class="subtitle">AGE</p>
+                    <p class="insidetext">AGE</p>
+                </div>
+                <div>
+                    <p class="subtitle">TEAM NAME</p>
+                    <p class="insidetext">TEAM NAME</p>
+                </div>
+                <div>
+                    <p class="subtitle">TROPHIES</p>
+                    <p class="insidetext">NUMBER OF TROPHIES</p>
+                </div>
+            </div>
+        </div>
+        <div class="Rectangle">
+            <p class="title">FORMATION</p>
+            <div class="formation-container">
+                <img src="assets/group-5.svg" class="playground">
+                <img src="./assets/goalkeeper.svg" alt="player" class="goalkeeper">
+                <div class="player-container defence">
+                </div>
+                <div class="player-container midfield">
+                </div>
+                <div class="player-container forward">
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="Rectangle squad">
+        <div class="title-container" id="type-of-filter">
+            <p class="title">SQUAD</p>
+            <div class="filter-container">
+                <p class="subtitle"><i class="fas fa-filter"></i><span> APPLY
+                        FILTERS</span>
+                </p>
+            </div>
+        </div>
+        <div class="title-container" id="filter-type">
+            <div class="dropdown">
+                <p class="subtitle non-bold">Debut Year <span id="debutflag"></span> <img src="./assets/down-arrow.svg"
+                        alt="down">
+                    <div class="dropdown-list" id="dropdown-debut">
+                    </div>
+                </p>
+            </div>
+
+            <div class="dropdown">
+                <p class="subtitle non-bold">Position <span id="positionflag"></span> <img src="./assets/down-arrow.svg"
+                        alt="down">
+                    <div class="dropdown-list" id="dropdown-position">
+                    </div>
+                </p>
+            </div>
+
+            <div class="dropdown">
+                <p class="subtitle non-bold">Team <span id="teamflag"></span><img src="./assets/down-arrow.svg"
+                        alt="down"></p>
+                <div class="dropdown-list" id="dropdown-team">
+                </div>
+            </div>
+
+            <p class="subtitle non-bold team-selected">Younger than <input type="text" class="inputText" id="age">
+            </p>
+
+            <p class="subtitle non-bold team-selected">No. of Awards <input type="text" class="inputText"
+                    id="awardCountTotal"></p>
+
+            <div class="goButton team-selected" id="goButton">Go</div>
+
+            <div class="dropdown">
+                <p class="subtitle non-bold">Award <span id="awardflag"></span> <img src="./assets/down-arrow.svg"
+                        alt="down">
+                    <div class="dropdown-list" id="dropdown-award">
+                    </div>
+                </p>
+            </div>
+
+            <div class="dropdown">
+                <p class="subtitle non-bold award-selected">Country <img src="./assets/down-arrow.svg" alt="down"></p>
+                <div class="dropdown-list" id="dropdown-country">
+                </div>
+            </div>
+
+            <p class="subtitle non-bold award-selected">No. of Awards <input type="text" class="inputText"
+                    id="awardCount"></p>
+
+        </div>
+        <div id="player-container">
+
+        </div>
+    </section>
+    <script type="text/javascript" src="link.js"></script>
 </body>
+
 </html>
